@@ -1,0 +1,2 @@
+0 4 * * * /etc/coremark.sh
+15 0 */2 * * rm /www/system.log && /etc/init.d/rsyslog restart
